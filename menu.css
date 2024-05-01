@@ -1,0 +1,150 @@
+body {
+    background-image: url("pics/bg.v2.JPG");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    font-family: sans-serif;
+    margin:auto;
+}
+
+.navbar {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 0.9;
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding:10px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.menustart, .menua {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menustart {
+    display: flex;
+    margin-right:30px;
+}
+
+.menua {
+    display:block;
+    margin-left:30px;
+    color:#000000;
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.menua, .menua:link, .menua:visited {
+    text-decoration: none;
+    outline:none;
+    border:none;
+}
+
+.menua:active {
+    color:rgb(136, 136, 136);
+}
+
+h1,h2,p {
+    text-align: center;
+}
+
+.menuPart {
+    opacity: 0.9;
+    background-color: rgb(208, 208, 208);
+    border-radius: 20px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    padding:20px;
+    max-width: 500px;
+}
+
+h1 {
+    font-family:OCR A Std, monospace;
+    text-shadow:1px 1px #000000;
+    font-size: 40px;
+    margin-top:0;
+    margin-bottom:15px;
+    
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.menu {
+    font-family:Gill Sans, sans-serif;
+}
+
+hr {
+    height: 3px;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 40%;
+}
+
+.lines {
+    margin-top:25px;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    font-size: 20px;
+}
+
+.drink, .game, .glove {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+footer {
+    font-size: 14px;
+}
+
+.imgicon {
+    block-size: 40px;
+}
+
+.brandicon {
+    block-size: 65px;
+    width: 200px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.infoitem p {
+    text-align: left;
+    font-style: italic;
+    font-size: 13px;
+    margin-top: -17px;
+    margin-bottom: -3px;
+    width: 67%;
+}
+
+.realfooter {
+    display: flex;
+    opacity: 0.9;
+    background-color: rgb(208, 208, 208);
+}
+
+.adresicon {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
