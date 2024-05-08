@@ -148,3 +148,19 @@ footer {
     margin-right: auto;
     margin-left: auto;
 }
+
+.iglink {
+    text-decoration: none;
+}
+
+.iglink:link {
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.iglink:visited {
+    color:black;
+    background-color: transparent;
+    text-decoration:none;
+}
