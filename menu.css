@@ -1,8 +1,9 @@
 body {
-    background-image: url("pics/bg.v4.png");
-    background-position: center;
-    background-size: cover;
+    background-image: url("pics/bg.v3.jpeg");
     background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     height: 100vh;
     font-family: sans-serif;
     margin:auto;
